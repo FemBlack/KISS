@@ -18,6 +18,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
 import java.lang.ref.WeakReference;
 import java.text.NumberFormat;
 
@@ -44,6 +48,9 @@ public abstract class Result {
      * Current information pojo
      */
     Pojo pojo = null;
+
+    InterstitialAd interstitial;
+    AdRequest adRequest;
 
     public static Result fromPojo(QueryInterface parent, Pojo pojo) {
         if (pojo instanceof PojoWithTags && parent.showRelevance()) {
@@ -221,8 +228,9 @@ public abstract class Result {
 
         recordLaunch(context);
 
+        showAd(context, v);
         // Launch
-        doLaunch(context, v);
+       // doLaunch(context, v);
     }
 
     /**
@@ -341,6 +349,29 @@ public abstract class Result {
                 return;
             image.setImageDrawable(drawable);
             image.setTag(null);
+        }
+    }
+
+    public void showAd(final Context context,final View v) {
+        adRequest = new AdRequest.Builder().build();
+
+        interstitial = new InterstitialAd(context);
+        interstitial.setAdUnitId(context.getResources().getString(R.string.ad_intetstitial));
+        interstitial.loadAd(adRequest);
+        interstitial.setAdListener(new AdListener() {
+            public void onAdLoaded() {
+                displayInterstitial();
+            }
+
+            public void onAdClosed() {
+                doLaunch(context, v);
+            }
+        });
+    }
+
+    private void  displayInterstitial(){
+        if (interstitial.isLoaded()) {
+            interstitial.show();
         }
     }
 }

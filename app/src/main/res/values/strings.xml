@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
-    <string name="app_name">KISS launcher</string>
-    <string name="activity_setting">KISS settings</string>
+    <string name="ad_intetstitial">ca-app-pub-9056859582559601/8606414975</string>
+    <string name="app_name">Apricity launcher</string>
+    <string name="activity_setting">Apricity settings</string>
     <string name="ui_search_hint">Search apps, contacts, …</string>
     <string name="ui_item_search">Search %1$s for “%2$s”</string>
     <string name="ui_item_visit">Visit “%1$s”</string>
@@ -22,7 +23,7 @@
     <string name="ui_empty_2">Always see your history</string>
     <string name="ui_empty_2_sub">For fast access</string>
     <string name="ui_empty_3">Quick access to most used apps</string>
-    <string name="ui_empty_3_sub">KISS launcher learns from your habits</string>
+    <string name="ui_empty_3_sub">Apricity launcher learns from your habits</string>
 
     <string name="toggles_name">Toggles (Wi-Fi, Bluetooth, …)</string>
     <string name="toggles_on">%s activated</string>
@@ -47,8 +48,8 @@
     <string name="stub_app_tag">Tag example</string>
     <string name="main_menu">Menu</string>
     <string name="main_clear">Clear search bar</string>
-    <string name="main_kiss">Display favorites and app list</string>
-    <string name="main_kiss_back">Display history</string>
+    <string name="main_Apricity">Display favorites and app list</string>
+    <string name="main_Apricity_back">Display history</string>
     <string name="reset_name">Reset history</string>
     <string name="reset_excluded_apps_name">Reset excluded app list</string>
     <string name="reset_excluded_apps_warn">Do you really want to reset your excluded app list?</string>
@@ -137,11 +138,11 @@
     <string name="tags_confirmation_added">Tag set</string>
     <string name="tags_visible">Show app tags</string>
     <string name="excluded_app_list_erased">List of excluded apps erased.</string>
-    <string name="excluded_app_list_added">App excluded from KISS. Reset through the KISS settings</string>
+    <string name="excluded_app_list_added">App excluded from Apricity. Reset through the Apricity settings</string>
 
     <string name="removed_item">Removed</string>
     <string name="menu_remove">Remove from history</string>
-    <string name="menu_exclude">Exclude app from KISS</string>
+    <string name="menu_exclude">Exclude app from Apricity</string>
     <string name="menu_app_details">App info</string>
     <string name="menu_app_uninstall">Uninstall</string>
     <string name="menu_app_hibernate">Hibernate</string>
@@ -166,11 +167,11 @@
     <string name="pref_hide_navbar_desc">Hide navigation bar and enable immersive mode for KitKat (4.4) and beyond</string>
     <string name="pref_hide_statusbar">Hide status bar</string>
     <string name="pref_hide_statusbar_desc">Hide status bar and enable immersive mode for KitKat (4.4) and beyond</string>
-    <string name="shortcut_added">Shortcut added to KISS.</string>
+    <string name="shortcut_added">Shortcut added to Apricity.</string>
 
     <string name="restart_desc">Fix theme issues and new contacts not displaying</string>
-    <string name="restart_name">Restart KISS</string>
-    <string name="restart_warn">Do you really want to restart KISS? If KISS is not your default launcher the app will simply quit.</string>
+    <string name="restart_name">Restart Apricity</string>
+    <string name="restart_warn">Do you really want to restart Apricity? If Apricity is not your default launcher the app will simply quit.</string>
 
     <string name="default_launcher_title">Change Default Launcher</string>
     <string name="default_launcher_warn">After selecting the Default Launcher, you\'ll be sent to its home screen. Are you sure you\'d like to proceed?\n\nNote: If you don\'t see the \"Always\" option, press the \"Home\" button after selecting your desired launcher.</string>

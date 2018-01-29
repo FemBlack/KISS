@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">KISS قاذفة</string>
-    <string name="activity_setting">إعدادات KISS</string>
+    <string name="app_name">Apricity قاذفة</string>
+    <string name="activity_setting">إعدادات Apricity</string>
     <string name="ui_search_hint">بحث التطبيقات، والاتصالات، …</string>
     <string name="ui_item_search">%1$s البحث عن \"%2$s\"</string>
     <string name="ui_item_phone">اتصال \"%s\"</string>
@@ -20,7 +20,7 @@
     <string name="ui_empty_2">نرى دائما تاريخكم</string>
     <string name="ui_empty_2_sub">للوصول السريع</string>
     <string name="ui_empty_3">الوصول السريع إلى التطبيقات الأكثر استخداما</string>
-    <string name="ui_empty_3_sub">KISS قاذفة يتعلم من عاداتك</string>
+    <string name="ui_empty_3_sub">Apricity قاذفة يتعلم من عاداتك</string>
 
     <string name="toggles_name">المسامير</string>
     <string name="toggles_on">%s تفعيلها</string>
@@ -38,8 +38,8 @@
 
     <string name="main_menu">قائمة</string>
     <string name="main_clear">حقل البحث واضح</string>
-    <string name="main_kiss">عرض قائمة التطبيقات المفضلة</string>
-    <string name="main_kiss_back">عرض التاريخ</string>
+    <string name="main_Apricity">عرض قائمة التطبيقات المفضلة</string>
+    <string name="main_Apricity_back">عرض التاريخ</string>
     <string name="reset_name">إعادة تعيين التاريخ</string>
     <string name="reset_excluded_apps_name">إعادة تعيين قائمة التطبيق مستبعدة</string>
     <string name="reset_excluded_apps_warn">هل تريد حقا أن إعادة الخاص بك قائمة التطبيق تم استبعادها؟</string>
@@ -84,11 +84,11 @@
     <string name="favorites_erased">المفضلة محوها.</string>
     <string name="menu_favorites_add">أضف الى المفضلة</string>
     <string name="excluded_app_list_erased">محت قائمة التطبيقات استبعادها.</string>
-    <string name="excluded_app_list_added">التطبيق استبعادها من قبلة. إعادة تعيين من خلال إعدادات KISS</string>
+    <string name="excluded_app_list_added">التطبيق استبعادها من قبلة. إعادة تعيين من خلال إعدادات Apricity</string>
 
     <string name="removed_item">إزالة</string>
     <string name="menu_remove">إزالة من التاريخ</string>
-    <string name="menu_exclude">استبعاد التطبيق من KISS</string>
+    <string name="menu_exclude">استبعاد التطبيق من Apricity</string>
     <string name="menu_app_details">معلومات التطبيق</string>
     <string name="menu_app_uninstall">الغاء التثبيت</string>
     <string name="menu_app_hibernate">نام</string>
@@ -105,7 +105,7 @@
     <string name="enable_sms">تجميع التاريخ من الرسائل النصية</string>
     <string name="enable_phone">تجميع التاريخ من المكالمات الهاتفية</string>
     <string name="enable_app">تجميع التاريخ من التطبيق تثبيت</string>
-    <string name="shortcut_added">وأضاف اختصار لـ KISS.</string>
+    <string name="shortcut_added">وأضاف اختصار لـ Apricity.</string>
 
     <string name="color_picker_default_title">"تحديد لون:"</string>
     <string name="color_swatch_description">"اللون <xliff:g id="COLOR_INDEX">%1$d</xliff:g>"</string>
